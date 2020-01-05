@@ -6,7 +6,7 @@ select * from cidades c inner join prefeitos p on c.id=p.cidade_id;  --executar 
 
 select * from cidades c left join prefeitos p on c.id=p.cidade_id;  --executar no mysql melhor
 
-select * from cidades c left outer join prefeitos p on c.id=p.cidade_id;  --executar no mysql melhor
+select * from cidades c left outer join prefeitos p on c.id=p.cidade_id;  -- idem de cima, executar no mysql melhor
 
 select * from cidades c right join prefeitos p on c.id=p.cidade_id;  --executar no mysql melhor
 
